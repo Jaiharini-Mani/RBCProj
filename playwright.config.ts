@@ -19,7 +19,7 @@ export default defineConfig({
 // Timeout that is applicable in each of the test steps. By default: 30 secs
 timeout: 10 * 1000,
 
-//retries: 2,
+retries: 2,
 
 expect: {
   // Timeout for assertion, separate from the test timeout. By default: 5 secs

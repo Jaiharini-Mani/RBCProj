@@ -25,6 +25,7 @@ export default class CarLoanPage {
     await this.page.waitForLoadState("domcontentloaded");
   }
 
+  
   async openCalculatorPopup() {
 
     const popupPromise = this.page.waitForEvent("popup");
